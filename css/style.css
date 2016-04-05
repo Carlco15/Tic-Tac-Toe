@@ -1,5 +1,14 @@
 body {
   font-size: 10px;
+  background-image: url("./Images/BVSBackground2.jpg");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
 }
 
 #gameboard {
@@ -19,4 +28,18 @@ body {
 .row {
   box-sizing: border-box;
 
+}
+
+.xImgClass {
+  background-image: url("./Images/BatSymbol.jpg");
+  background-size: 10em 10em;
+}
+
+.yImgClass {
+  background-image: url("./Images/SuperSymbol.jpeg");
+  background-size: 10em 10em;
+}
+
+.holder {
+  text-align: center;
 }

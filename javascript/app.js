@@ -7,7 +7,14 @@ $(document).ready(function(){
     var countTotal = 1;
 
     $($gameCells).one('click', function(){
-      $(this).html(turn);
+      //$(this).html(turn);
+      //$(this).css('background-image', "./Images/BatSymbol.jpg");
+      if (turn == 'X') {
+        $(this).addClass('xImgClass')
+      }
+      else {
+        $(this).addClass('yImgClass')
+      }
       moves[this.id] = turn;
       count++;
       countTotal++;
@@ -20,15 +27,17 @@ $(document).ready(function(){
       var getWinner = function () {
         if (winnerIs('X')) {
           //return 'X';
-          alert("Player X wins the game!");
+          alert("The Bat of Gotham has defeated the Son of Krypton!");
+          $($gameCells).off('click');
         }
         if (winnerIs('O')) {
           //return 'O';
-          alert("Player O wins the game!");
+          alert("The Son of Krypton has defeated the Bat of Gotham!");
+          $($gameCells).off('click');
         }
-        // else if countTotal === 10 {
-        //   alert("Cat's Game!")
-        // }
+        else if (countTotal === 10 && winnerIs(!'X')) {
+          alert("Martha Saves the Day!");
+        }
         else {
           return null;
         }
