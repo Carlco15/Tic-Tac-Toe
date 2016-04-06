@@ -11,8 +11,11 @@ I chose Tic Tac Toe as my first project since I felt it would be the best game s
 #Technologies Used:
 
 - Languages: HTML, CSS, jQuery, and Javascript
-- Project Planning and User Stories: Trello
+- Project Planning and User Stories: Trello <https://trello.com/b/p9CPuIUA/tic-tac-toe>
 - Sublime Text 3
+
+#Wireframe:
+<https://gomockingbird.com/projects/pu5il3d>
 
 #Future Addons:
 
