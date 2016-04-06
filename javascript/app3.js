@@ -27,16 +27,16 @@ $(document).ready(function(){
       var getWinner = function () {
         if (winnerIs('X')) {
           //return 'X';
-          alert("The Hero of Time has defeated the Ex-SOLDIER!");
+          alert("The Wizard of Menlo Park has defeated The Sorcerer of Serbia!");
           $($gameCells).off('click');
         }
         if (winnerIs('O')) {
           //return 'O';
-          alert("The Ex-SOLDIER has defeated the Hero of Time!");
+          alert("The Sorcerer of Serbia has defeated The Wizard of Menlo Park!");
           $($gameCells).off('click');
         }
         else if (countTotal === 10 && !winnerIs('X')) {
-          alert("Ganon and Sephiroth prevail!");
+          alert("Darkness takes the day!");
         }
         else {
           return null;

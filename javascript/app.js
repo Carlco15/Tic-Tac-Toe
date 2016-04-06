@@ -35,7 +35,7 @@ $(document).ready(function(){
           alert("The Son of Krypton has defeated the Bat of Gotham!");
           $($gameCells).off('click');
         }
-        else if (countTotal === 10 && winnerIs(!'X')) {
+        else if (countTotal === 10 && !winnerIs('X')) {
           alert("Martha Saves the Day!");
         }
         else {
