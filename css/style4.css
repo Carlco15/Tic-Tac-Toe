@@ -1,6 +1,6 @@
 body {
   font-size: 10px;
-  background-image: url("./Images/BVSBackground2.jpg");
+  background-image: url("./Images/indylaura.jpg");
   background-size: cover;
 }
 
@@ -31,12 +31,12 @@ h2 {
 }
 
 .xImgClass {
-  background-image: url("./Images/BatSymbol.jpg");
+  background-image: url("./Images/whip.jpeg");
   background-size: 10em 10em;
 }
 
 .yImgClass {
-  background-image: url("./Images/SuperSymbol.jpeg");
+  background-image: url("./Images/TRlogo.jpg");
   background-size: 10em 10em;
 }
 
@@ -45,7 +45,7 @@ h2 {
 }
 
 .links {
-  text-align: center;
+  text-align: left;
   margin-top: 2em;
   margin-right: 4em;
 }

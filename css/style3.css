@@ -49,3 +49,12 @@ h2 {
   margin-top: 2em;
   margin-right: 4em;
 }
+
+li {
+  font-size: 3em;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
